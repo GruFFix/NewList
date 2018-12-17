@@ -1,0 +1,16 @@
+.menuItem {
+  text-transform: uppercase;
+  padding: 5px;
+
+  button {
+    width: 100%;
+  }
+
+  @media (max-width:959px) {
+    display: inline-block;
+
+    button {
+      width: auto;
+    }
+  }
+}
