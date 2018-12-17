@@ -1,0 +1,25 @@
+// Vendor custom fonts
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:200,300,400,400i,600,700,700i,900|Raleway|Roboto:100,300);
+
+
+// detail blocj
+.detail-appear {
+  transform: scale(0.8);
+}
+
+.detail-appear.detail-appear-active{
+  transform: scale(1);
+  transition: all .3s ease-in;
+}
+
+// article list
+.anim-appear {
+  opacity: .2;
+  transform: translateY(40px);
+}
+
+.anim-appear.anim-appear-active{
+  transform: translateY(0);
+  opacity: 1;
+  transition: all .3s ease-in;
+}
